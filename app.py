@@ -26,6 +26,6 @@ if st.button("Predict Bankruptcy Risk"):
     prediction = model.predict(input_data)[0]
     
     if prediction == 1:
-        st.error("⚠️ Prediction  classes is: Bankruptcy")
+        st.error("⚠️ Prediction  class is : Bankruptcy")
     else:
-        st.success("✅ Prediction  classes is : Non- Bankruptcy ")
+        st.success("✅ Prediction  class is : Non- Bankruptcy ")
